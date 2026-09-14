@@ -1,0 +1,7 @@
+﻿Module,Upstream Compound (Old),Corrected Upstream Compound (New),Downstream Effect
+lottery,"Vague “app” request, no test harness","Explicit contract logic: task distribution + reward draw, with unit tests","Reliable lottery execution, verifiable fairness"
+ipfrs,"Ephemeral storage, no semantic indexing",DAG storage with CIDs + tensorlogic semantic tagging,"Persistent results, searchable by meaning"
+abi,Fragmented WASM interfaces,"Unified ABI via #[wasm_bindgen] exposing add_task, draw_lottery, add_bytes, search_semantic, tensorlogic_eval",One clean API surface for frontend
+Testing Discipline,Skipped freenet test / verify-merge,Mandatory pre-flight checks in logic.sh script,"Fail fast, no compounding bugs"
+Frontend Binding,"No bindings, manual integration",TypeScript examples calling unified ABI,"Usable app, not just backend scaffold"
+Diagnostics,No visibility into node state,Integrated diagnostics + network-metrics-server,Transparent performance monitoring
